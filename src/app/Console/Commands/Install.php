@@ -1,6 +1,6 @@
 <?php
 
-namespace Bearth\Backpack\DropzoneField\App\Console\Commands;
+namespace Gaspertrix\Backpack\DropzoneField\App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;

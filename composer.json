@@ -1,5 +1,5 @@
 {
-    "name": "bearth/laravel-backpack-dropzone-field",
+    "name": "gaspertrix/laravel-backpack-dropzone-field",
     "type": "library",
     "description": "Add Dropzone support for Laravel Backpack",
     "keywords": [
@@ -11,7 +11,7 @@
         "upload",
         "files"
     ],
-    "homepage": "https://github.com/bearth/laravel-backpack-dropzone-field",
+    "homepage": "https://github.com/gaspertrix/laravel-backpack-dropzone-field",
     "license": "MIT",
     "authors": [
         {
@@ -22,13 +22,13 @@
         }
     ],
     "require": {
-        "backpack/crud": "^3.4.0",
+        "backpack/crud": "^4.0.0",
         "spatie/laravel-medialibrary": "^7.0.0"
     },
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Bearth\\Backpack\\DropzoneField\\": "src"
+            "Gaspertrix\\Backpack\\DropzoneField\\": "src"
         }
     },
     "autoload-dev": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bearth\\Backpack\\DropzoneField\\DropzoneFieldServiceProvider"
+                "Gaspertrix\\Backpack\\DropzoneField\\DropzoneFieldServiceProvider"
             ]
         }
     }
